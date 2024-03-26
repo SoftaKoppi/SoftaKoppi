@@ -1,0 +1,83 @@
+.company-card-body-left {
+    box-sizing: border-box;
+    margin: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #fdd729; /* Yellow background for post-it note */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    position: relative;
+    width: 450px;
+    height: 350px;
+    right: 0px;
+    left: 40px;
+    bottom: 0px;
+    top: 155px;
+    transform:rotate(-4deg);
+}
+.company-card-body-center {
+    color: #333;
+    box-sizing: border-box;
+    margin: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+    background:#ccf;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    position: relative;
+    width: 450px; /* Adjust width as needed */
+    height: 350px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    top: 190px;
+}
+
+.company-card-body-right {
+    color: #333;
+    box-sizing: border-box;
+    margin: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #ff9100; /* Yellow background for post-it note */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    position: relative;
+    width: 450px; /* Adjust width as needed */
+    height: 350px;
+    left: -45px;
+    bottom: 0px;
+    top: 265px;
+    transform:rotate(4deg);
+}
+
+.company-section {
+    justify-content: center;
+}
+
+.company-section:before {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    content: "Palvelut";
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3.2em;
+    color: rgba(26, 26, 26, 0.7);
+    text-align: center;
+    padding-top: 100px;
+}
+
+.service-list {
+    padding: 15px;
+}
+
+.area-item {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.4rem;
+}
+

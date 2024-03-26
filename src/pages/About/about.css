@@ -1,0 +1,130 @@
+.image-container {
+    color: #333;
+    margin: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    width: 540px;
+    height: 850px;
+    left: -260px;
+    bottom: 0px;
+}
+
+.aboutContainer {
+    justify-content: center;
+    margin-top: 340px;
+}
+
+.aboutContainer:before {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 50%;
+    content: "Miksi valita SoftaKoppi?";
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3.2em;
+    color: rgba(26, 26, 26, 0.7);
+    text-align: center;
+    top: 1120px;
+}
+
+.about-picture {
+    object-fit: cover;
+    height: 95%;
+}
+
+.about-card-body-right{
+    color: #333;
+    box-sizing: border-box;
+    margin: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #ff9100; /* Yellow background for post-it note */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    position: relative;
+    width: 450px; /* Adjust width as needed */
+    height: 350px;
+    bottom: -15px;
+    left: -80px;
+    transform:rotate(5deg);
+}
+
+.about-card-body-bottom{
+    color: #333;
+    box-sizing: border-box;
+    margin: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #ffae00; /* Yellow background for post-it note */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    position: relative;
+    width: 450px; /* Adjust width as needed */
+    height: 350px;
+    top: -520px;
+    left: 720px;
+    transform:rotate(-2deg);
+}
+
+.about-card-body-bottom-right {
+    color: #333;
+    box-sizing: border-box;
+    margin: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #fdd729; /* Yellow background for post-it note */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    position: relative;
+    width: 450px; /* Adjust width as needed */
+    height: 350px;
+    left: 650px;
+    top: -540px;
+    transform:rotate(6deg);
+}
+
+.about-card-body-bottom-left {
+    color: #333;
+    box-sizing: border-box;
+    margin: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #fd8f29; /* Yellow background for post-it note */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    position: relative;
+    width: 450px; /* Adjust width as needed */
+    height: 350px;
+    left: 30px;
+    bottom: 0px;
+    top: 0px;
+}
+
+.area-item-about {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.3rem;
+}
+
+img[alt="softakoppi_firman_edustus_kuva"] {
+    --w: 480px; /* image width */
+    --r: 1;     /* image ratio */
+    --l: 35px;
+    --s: 2px; 
+    --_d:calc(var(--s) + var(--l));
+    width: var(--w);
+    padding: calc(var(--_d)/2);
+    box-sizing: border-box;
+    aspect-ratio: var(--r);
+    object-fit: cover;
+    --_g:calc(100% - var(--w)/2)/calc(var(--w)*(1 + 1/var(--r)) - 2*(var(--s) + var(--_d)));
+    background: repeating-conic-gradient(from 45deg,#0000 0 25%,#0005 0 50%) var(--_g);
+    mask:       repeating-conic-gradient(from 45deg,#000  0 25%,#0005 0 50%) var(--_g);
+    clip-path: polygon(var(--l) 0,var(--_d) var(--s),calc(100% - var(--_d)) var(--s),calc(100% - var(--l)) 0,100% var(--l),calc(100% - var(--s)) var(--_d),calc(100% - var(--s)) calc(100% - var(--_d)),100% calc(100% - var(--l)),calc(100% - var(--l)) 100%,calc(100% - var(--_d)) calc(100% - var(--s)),var(--_d) calc(100% - var(--s)),var(--l) 100%,0 calc(100% - var(--l)),var(--s) calc(100% - var(--_d)),var(--s) var(--_d),0 var(--l))
+  }

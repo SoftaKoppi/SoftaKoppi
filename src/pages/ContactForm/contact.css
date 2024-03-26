@@ -1,0 +1,143 @@
+.contact-form-container {
+  display: flex;
+  justify-content: center;
+  height: 0px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    position: relative;
+    right:375px;
+    gap: 15px;
+    bottom:350px;
+  }
+  .contact-form:before {
+  box-sizing: border-box;
+  width: 50%;
+  content: "Ota yhteyttä";
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3.4em;
+  color: rgba(26, 26, 26, 0.7);
+  text-align: center;
+}
+  
+  .contact-form input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+ .contact-form button {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  font-family: 'Permanent Marker', cursive;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  position: relative;
+}
+
+/* Create the underline */
+.contact-form button::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: auto;
+  height: 2px;
+  background-color: #333;
+}
+
+.contact-form button:hover {
+  font-weight: bolder;
+}
+
+  .about-contact-form {
+    position: relative;
+  }
+
+  .success-message {
+  position: relative;
+  font-family: 'Permanent Marker', cursive;
+  left: -215px;
+  bottom: 415px;
+  font-size: 2.3rem;
+  }
+
+  .contact-label {
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  font-family: 'Permanent Marker', cursive;
+  color: rgba(26, 26, 26, 0.7);
+  }
+
+  input[type="text"] {
+  font-family: 'Permanent Marker', cursive;
+  color: rgba(26, 26, 26, 0.7);
+  background-color: transparent;
+  appearance: none;
+  border: none;
+  outline: none;
+  border-bottom: .2em solid 
+  }
+
+  input[type="email"] {
+  font-family: 'Permanent Marker', cursive;
+  color: rgba(26, 26, 26, 0.7);
+  background-color: transparent;
+  appearance: none;
+  border: none;
+  outline: none;
+  border-bottom: .2em solid 
+  }
+
+
+  textarea {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  min-height: auto;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: transparent;
+  font-size: 1.2rem;
+  resize:none;
+  color: rgba(26, 26, 26, 0.7);
+  font-family: 'Permanent Marker', cursive;
+  appearance: none;
+  border: none;
+  outline: none;
+  border-bottom: .2em solid; 
+  margin-bottom: 15px;
+  }
+
+  .quick-contact {
+    position: relative;
+    bottom: 410px;
+    left: 50px;
+  }
+
+  .quick-contact:before {
+    content: "yhteystiedot";
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3.2em;
+    color: rgba(26, 26, 26, 0.7);
+    text-align: center;
+  }
+
+  .contact-list {
+    font-family: "Permanent Marker", cursive;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    list-style-type: none;
+  }
+
+  .link {
+    font-size: 1.8rem;
+  }
