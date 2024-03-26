@@ -1,5 +1,6 @@
 {
   "name": "koppisivut",
+  "homepage": "https://www.softakoppi.fi",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
