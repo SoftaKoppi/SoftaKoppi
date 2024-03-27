@@ -141,3 +141,44 @@
   .link {
     font-size: 1.8rem;
   }
+
+
+  @media only screen and (max-width: 1680px) {
+    .contact-form {
+      right: 245px;
+    }
+    .quick-contact{
+      left: 110px;
+    }
+  }
+
+  @media only screen and (max-width: 1280px) {
+    .contact-form {
+      right: 105px;
+      top: -320px;
+    }
+    .quick-contact{
+      left: 110px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .contact-form-container{
+      flex-direction: column !important;
+    }
+    .contact-form{
+      top: 245px;
+      left: 12px;
+    }
+    .quick-contact{
+      top: 285px;
+      left: 45px;
+    }
+    .success-message {
+      position: relative;
+      font-family: 'Permanent Marker', cursive;
+      left: 50px;
+      bottom: -145px;
+      font-size: 1.5rem;
+      }
+  }

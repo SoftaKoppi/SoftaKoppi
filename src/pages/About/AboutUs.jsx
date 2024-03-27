@@ -11,7 +11,6 @@ export default function AboutUs() {
           <img
             src={aboutkuva}
             alt="softakoppi_firman_edustus_kuva"
-            width={450}
             className="about-picture"
           />
               <div className="about-card-body-bottom-left text-center justify-content-center">
@@ -20,7 +19,7 @@ export default function AboutUs() {
         </div>
         <div className="text-area">
           <div className="service-list">
-            <p className="area-item-about">
+            <p className="area-item">
              Intohimoinen ja luova ohjelmistokehittäjä Helsingistä.
               Visioni SoftaKopissa on tarjota asiakaslähtöistä suunnittelua ja palveluita pelkkien teknisten ratkaisujen sijaan.
             </p>
@@ -34,7 +33,7 @@ export default function AboutUs() {
           </div>
           <div className="text-area">
             <div className="service-list">
-              <p className="area-item-about">
+              <p className="area-item">
                 Olemme sitoutuneet tarjoamaan korkealaatuisia ja
                 innovatiivisia ratkaisuja, jotka auttavat sinua erottumaan
                 kilpailijoista.
@@ -49,7 +48,7 @@ export default function AboutUs() {
         </div>
         <div className="text-area">
           <div className="service-list">
-            <p className="area-item-about">
+            <p className="area-item">
               Ymmärrämme, että asiakkaiden tarpeiden ja tavoitteiden
               ymmärtäminen on avainasemassa onnistuneen lopputuloksen
               saavuttamiseksi.
@@ -63,7 +62,7 @@ export default function AboutUs() {
         </div>
         <div className="text-area">
           <div className="service-list">
-            <p className="area-item-about">
+            <p className="area-item">
               Emme pelkää kokeilla uusia asioita ja löytää luovia ratkaisuja,
               jotka sopivat juuri sinun tarpeisiisi.
             </p>

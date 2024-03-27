@@ -6,7 +6,7 @@ import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 
 
 function ContactForm() { const form = useRef();
-    const [isSubmitted, setIsSubmitted] = useState(false);
+    const [isSubmitted, setIsSubmitted] = useState(true);
   
     const sendEmail = (e) => {
       e.preventDefault();

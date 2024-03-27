@@ -128,3 +128,73 @@ img[alt="softakoppi_firman_edustus_kuva"] {
     mask:       repeating-conic-gradient(from 45deg,#000  0 25%,#0005 0 50%) var(--_g);
     clip-path: polygon(var(--l) 0,var(--_d) var(--s),calc(100% - var(--_d)) var(--s),calc(100% - var(--l)) 0,100% var(--l),calc(100% - var(--s)) var(--_d),calc(100% - var(--s)) calc(100% - var(--_d)),100% calc(100% - var(--l)),calc(100% - var(--l)) 100%,calc(100% - var(--_d)) calc(100% - var(--s)),var(--_d) calc(100% - var(--s)),var(--l) 100%,0 calc(100% - var(--l)),var(--s) calc(100% - var(--_d)),var(--s) var(--_d),0 var(--l))
   }
+
+@media only screen and (max-width: 1680px) {
+    .image-container{
+        left: -120px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .about-card-body-bottom, .about-card-body-bottom-left, .about-card-body-bottom-right, .about-card-body-right{
+        width: 400px;
+    }
+    .service-list {
+        padding: 10px;
+    }
+    .about-card-body-bottom-left {
+        top: 55px;
+    }
+    .about-card-body-bottom-right{
+        top: -525px;
+    }
+    .about-card-body-bottom{
+        top: -485px;
+        left: 555px;
+    }
+    .about-card-body-right {
+        top: 85px;
+        left: 40px;
+    }
+    .image-container {
+        width: 460px;
+        top: 95px;
+        height: 100%;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .aboutContainer {
+        flex-direction: column !important;
+    }
+    .aboutContainer:before{
+        top: 1920px;
+        left: 90px;
+    }
+    .image-container{
+        left: -4px;
+        top: -50px;
+    }
+    .about-picture{
+        width: 90% !important;
+        border-radius: 25px;
+    }
+    .about-card-body-bottom-left{
+        top: -25px;
+        left: -5px;
+    }
+    .about-card-body-right{
+        top: -135px;
+        left: -5px;
+        background-color: #ffae00;
+    }
+    .about-card-body-bottom{
+        background-color: rgb(231, 228, 7);
+        top: -180px;
+        left: 1px;
+    }
+    .about-card-body-bottom-right
+    {
+        left: 1px;
+        top: -205px;
+    }
+  }
