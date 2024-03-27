@@ -31,7 +31,7 @@ code {
 @media only screen and (max-width: 480px) {
   .backgroundcontainer{
     position: relative;
-    height: 4700px;
+    height: 4900px;
     margin: 0;
     border: tan solid 6px;
     border-top: #bda27e solid 6px;

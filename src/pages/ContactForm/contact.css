@@ -181,4 +181,9 @@
       bottom: -145px;
       font-size: 1.5rem;
       }
+      .contact-form:before {
+        content: "Ota yhteyttä";
+        font-size: 2.1rem;
+        margin-left: 69px;
+      }
   }
