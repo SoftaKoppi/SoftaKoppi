@@ -1,0 +1,7 @@
+@media only screen and (max-width: 450px){
+.footer{
+    margin-top: 325px;
+    width: 50%;
+    background-color: transparent !important;
+}
+}

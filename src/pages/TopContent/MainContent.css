@@ -15,7 +15,8 @@
   }
 
   .list-link-nav{
-    padding-bottom: 14px;
+    padding-bottom: 10px;
+    font-size: 1.4rem;
   }
 
   .navigation-hidden {
@@ -111,5 +112,40 @@
         height: 300px;
         top: 5px;
         left: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+
+    .card-body-right {
+        width: 340px;
+        height: 300px;
+        top: -15px;
+        left: 35px;
+    }
+    .card-body-left{
+        width: 340px;
+        height: 300px;
+        top: 20px;
+        left: 15px;
+    }
+    .hamburger {
+      position: relative;
+      left: 185px;
+      top: 15px !important;
+    }
+    .navigation-visible{
+      display: flex;
+      background-color: #3339;
+      width: 484px;
+      height: 300px;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      left: -230px;
+      top: -60px;
+    }
+    .link {
+      color: #fff;
     }
   }

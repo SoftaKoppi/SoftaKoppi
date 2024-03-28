@@ -2,6 +2,7 @@ import React from 'react'
 import aboutkuva from "../../images/SoftaKoppiFirmanKuvaAbout.jpg";
 import "./about.css";
 import ContactForm from "../ContactForm/ContactForm.js"
+import {Link } from "react-router-dom"
 
 export default function AboutUs() {
   return (
@@ -14,19 +15,18 @@ export default function AboutUs() {
             width={450}
             className="about-picture"
           />
-              <div className="about-card-body-bottom-left text-center justify-content-center">
-        <div className="card-header">
-          <p>Terve, Minä oon Eetu</p>
-        </div>
-        <div className="text-area">
-          <div className="service-list">
-            <p className="area-item">
-             Intohimoinen ja luova ohjelmistokehittäjä Helsingistä.
-              Visioni SoftaKopissa on tarjota asiakaslähtöistä suunnittelua ja palveluita pelkkien teknisten ratkaisujen sijaan.
-            </p>
+        <div className="about-card-body-bottom-left text-center justify-content-center">
+          <div className="card-header" style={{ paddingTop: "50px"}}>
+            <p>Terve, Minä oon Eetu</p>
+          </div>
+          <div className="text-area">
+            <div className="service-list">
+              <p className="area-item">
+              Jos etsit luovaa ja energistä kehittäjää, joka ei pelkää tarttua haasteisiin, ota <Link to="#contact-form-id" style={{color: "#333"}}>rohkeasti yhteyttä!</Link>
+              </p>
+            </div>
           </div>
         </div>
-      </div>
         </div>
         <div className="about-card-body-right text-center justify-content-center">
           <div className="card-header">

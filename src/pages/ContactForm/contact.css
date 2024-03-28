@@ -187,3 +187,26 @@
         margin-left: 69px;
       }
   }
+
+  @media only screen and (max-width: 450px) {
+    .contact-form{
+      top: 285px;
+      left: 5;
+    }
+    .quick-contact{
+      top: 295px;
+      left: 0px;
+    }
+    .success-message {
+      position: relative;
+      font-family: 'Permanent Marker', cursive;
+      left: 50px;
+      bottom: -165px;
+      font-size: 1.5rem;
+      }
+      .contact-form:before {
+        content: "Ota yhteyttä";
+        font-size: 2.1rem;
+        margin-left: 69px;
+      }
+  }

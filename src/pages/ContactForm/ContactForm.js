@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 import "./contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
+import Footer from "../../components/Footer/Footer.js"
 
 
 function ContactForm() { const form = useRef();
@@ -36,6 +37,7 @@ function ContactForm() { const form = useRef();
           ) : (
             <form
               className="contact-form"
+              id="contact-form-id"
               ref={form}
               onSubmit={sendEmail}
             >
@@ -74,9 +76,11 @@ function ContactForm() { const form = useRef();
                     <a href="https://eetuhuttula.github.io/EetuHcv/" target="blank" alt="Web-resume" className="link-ul"><i className="bi bi-link-45deg"></i></a>
                   </ul>
                 </div>
-                <h5 className="copyright-icon">&copy;SoftaKoppi</h5>
               </div>
-
+              <div className="footer-container">
+                <Footer/>
+              </div>
+              
      </div>
      
    );

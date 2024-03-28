@@ -76,9 +76,16 @@
     padding: 15px;
 }
 
+@font-face {
+    font-family: ArchitectsDaughter-Regular;
+    src: url('../../../public/fonts/ArchitectsDaughter-Regular.ttf');
+  }
+
 .area-item {
-    font-family: 'Gloria Hallelujah', cursive;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    color: #2c2c2c;
+    font-weight: 800;
+    font-family: ArchitectsDaughter-Regular;
 }
 
 @media only screen and (max-width: 1280px) {
@@ -110,5 +117,24 @@
         top: -35px;
         left: -5px;
         transform: rotate(1deg);
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .company-section:before{
+        bottom: 1780px;
+        left: 110px;
+    }
+    .area-item {
+        font-size: 1.4rem;
+    }
+    .company-card-body-center{
+        width: 375px;
+    }
+    .company-card-body-left{
+        width: 375px;
+    }
+    .company-card-body-right{
+        width: 375px;
     }
 }

@@ -107,11 +107,6 @@
     top: 0px;
 }
 
-.area-item-about {
-    font-family: 'Gloria Hallelujah', cursive;
-    font-size: 1.3rem;
-}
-
 img[alt="softakoppi_firman_edustus_kuva"] {
     --w: 450px; /* image width */
     --r: 1;     /* image ratio */
@@ -196,5 +191,49 @@ img[alt="softakoppi_firman_edustus_kuva"] {
     {
         left: 1px;
         top: -205px;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .aboutContainer {
+        flex-direction: column !important;
+    }
+    .aboutContainer:before{
+        top: 1950px;
+        left: 90px;
+        font-size: 2.4rem;
+    }
+    .image-container{
+        left: -22px;
+        top: -120px;
+    }
+    .about-picture{
+        width: 95% !important;
+        height: 438px;
+        border-radius: 25px;
+        z-index: 1;
+    }
+    .about-card-body-bottom-left{
+        width: 385px;
+        top: -25px;
+        left: 7px;
+        transform:rotate(-2deg) ;
+    }
+    .about-card-body-right{
+        top: -195px;
+        left: 3px;
+        width: 385px;
+        background-color: #ffae00;
+    }
+    .about-card-body-bottom{
+        background-color: rgb(231, 228, 7);
+        top: -240px;
+        left: 2px;
+        width: 385px;
+    }
+    .about-card-body-bottom-right{
+        left: 1px;
+        top: -260px;
+        width: 385px;
     }
   }

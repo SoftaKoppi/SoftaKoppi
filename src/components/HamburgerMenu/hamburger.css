@@ -21,10 +21,10 @@
 
 .open .b1 {
     transform: rotate(45deg);
-  }
-  .open .b2 {
+}
+.open .b2 {
     opacity: 0;
-  }
-  .open .b3 {
+}
+.open .b3 {
     transform: rotate(-45deg);
-  }
+}
