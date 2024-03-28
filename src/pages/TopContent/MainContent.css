@@ -10,8 +10,8 @@
 
   .hamburger {
     position: relative;
-    top: 0;
-    left: 125px;
+    left: 725px;
+    top: 25px;
   }
 
   .list-link-nav{
@@ -32,8 +32,8 @@
     transition: transform 0.3s ease-in-out; /* Smooth transition on open/close */
     position: absolute;
     top: 0;
-    margin-top: 35px;
-    left: 25px;
+    margin-top: 55px;
+    left: 625px;
   }
   ul {
     list-style-type:none;
