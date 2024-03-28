@@ -5,12 +5,13 @@ import ContactForm from "../ContactForm/ContactForm.js"
 
 export default function AboutUs() {
   return (
-    <div className="container">
+    <div className="container" id="about-container">
       <div className="aboutContainer d-flex flex-row ">
         <div className="image-container">
           <img
             src={aboutkuva}
             alt="softakoppi_firman_edustus_kuva"
+            width={450}
             className="about-picture"
           />
               <div className="about-card-body-bottom-left text-center justify-content-center">

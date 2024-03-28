@@ -1,0 +1,30 @@
+.hamburger {
+    width: 1rem;
+    height: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 10;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.burger{
+    width: 2rem;
+    height: 1.5rem;
+    border-radius: 10px;
+    background-color: #333;
+    transform-origin: 1px;
+    transition: all 0.1 linear;
+}
+
+.open .b1 {
+    transform: rotate(45deg);
+  }
+  .open .b2 {
+    opacity: 0;
+  }
+  .open .b3 {
+    transform: rotate(-45deg);
+  }

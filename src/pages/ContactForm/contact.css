@@ -131,14 +131,14 @@
     text-align: center;
   }
 
-  .contact-list {
+  .contact-list-ul {
     font-family: "Permanent Marker", cursive;
     letter-spacing: 2px;
     font-size: 1.2em;
     list-style-type: none;
   }
 
-  .link {
+  .link-ul {
     font-size: 1.8rem;
   }
 

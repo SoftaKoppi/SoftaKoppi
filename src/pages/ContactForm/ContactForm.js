@@ -27,7 +27,7 @@ function ContactForm() { const form = useRef();
     };
 
   return (
-        <div className="container contact-form-container d-flex flex-row justify-contect-center">
+        <div className="container contact-form-container d-flex flex-row justify-contect-center" id="contact-container">
           {isSubmitted ? (
             <div className="success-message">
               <FontAwesomeIcon icon={faCheckCircle} className="success-icon" />
@@ -60,18 +60,18 @@ function ContactForm() { const form = useRef();
      )}
      <div className=" quick-contact">
                 <div className="row">
-                  <ul className="contact-list">
-                    <li className="contact-list">
+                  <ul className="contact-list-ul">
+                    <li className="contact-list-ul">
                     <i className="bi bi-telephone"> (+358) 45 6122540</i>
                     </li>
-                    <li className="contact-list">
+                    <li className="contact-list-ul">
                     <i className="bi bi-envelope"> softakoppi@gmail.com</i>
                     </li>
-                    <li className="contact-list">
+                    <li className="contact-list-ul">
                     <i className="bi bi-geo-alt">Helsinki</i>
                     </li>
-                    <a href="https://www.linkedin.com/in/eetu-huttula-3a2714244/" target="blank" alt="linkedin-Eetu-Huttula" className="link"><i className="bi bi-linkedin"></i></a>
-                    <a href="https://eetuhuttula.github.io/EetuHcv/" target="blank" alt="Web-resume" className="link"><i className="bi bi-link-45deg"></i></a>
+                    <a href="https://www.linkedin.com/in/eetu-huttula-3a2714244/" target="blank" alt="linkedin-Eetu-Huttula" className="link-ul"><i className="bi bi-linkedin"></i></a>
+                    <a href="https://eetuhuttula.github.io/EetuHcv/" target="blank" alt="Web-resume" className="link-ul"><i className="bi bi-link-45deg"></i></a>
                   </ul>
                 </div>
                 <h5 className="copyright-icon">&copy;SoftaKoppi</h5>

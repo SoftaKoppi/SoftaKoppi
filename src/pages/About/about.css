@@ -32,7 +32,7 @@
 
 .about-picture {
     object-fit: cover;
-    height: 95%;
+    height: 100%;
 }
 
 .about-card-body-right{
@@ -113,7 +113,7 @@
 }
 
 img[alt="softakoppi_firman_edustus_kuva"] {
-    --w: 480px; /* image width */
+    --w: 450px; /* image width */
     --r: 1;     /* image ratio */
     --l: 35px;
     --s: 2px; 

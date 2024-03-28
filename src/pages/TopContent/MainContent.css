@@ -8,6 +8,45 @@
     src: url('../../../public/fonts/Amaranth-Regular.ttf');
   }
 
+  .hamburger {
+    position: relative;
+    top: 0;
+    left: 125px;
+  }
+
+  .list-link-nav{
+    padding-bottom: 14px;
+  }
+
+  .navigation-hidden {
+    display: none;
+  }
+  
+  .navigation-visible {
+    display: inline;
+
+  }
+  .navigation {
+    padding: 1rem; /* Add some padding for content */
+    transition: transform 0.3s ease-in-out; /* Smooth transition on open/close */
+    position: absolute;
+    top: 0;
+    margin-top: 35px;
+    left: 25px;
+  }
+  ul {
+    list-style-type:none;
+    font-family: 'Permanent Marker', cursive;
+  }
+ .link {
+    color: #333;
+    text-decoration: none;
+ } 
+
+ .link:hover{
+  font-size: larger;
+  font-weight: 800;
+ }
 .card-body-left {
     box-sizing: border-box;
     margin: 15px;
