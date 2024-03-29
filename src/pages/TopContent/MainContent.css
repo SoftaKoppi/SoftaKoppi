@@ -113,10 +113,32 @@
         top: 5px;
         left: 15px;
     }
+    .hamburger {
+      position: relative;
+      left: 205px;
+      top: 15px !important;
+    }
+    .navigation-visible{
+      display: flex;
+      background-color: #3339;
+      color: black;
+      width: 485px;
+      height: 306px;
+      justify-content: center;
+      left: -220px;
+      top: -70px;
+      text-align: center;
+      align-items: center;
+      -webkit-box-shadow: 0 4px 6px -6px #222;
+      -moz-box-shadow: 0 4px 6px -6px #222;
+      box-shadow: 0 4px 6px -2px #222;
+    }
+    .link {
+      color: #fff;
+    }
   }
 
-  @media only screen and (max-width: 450px) {
-
+  @media only screen and (max-width: 460px) {
     .card-body-right {
         width: 340px;
         height: 300px;
@@ -137,15 +159,93 @@
     .navigation-visible{
       display: flex;
       background-color: #3339;
-      width: 484px;
-      height: 300px;
+      color: black;
+      width: 463px;
+      height: 306px;
       justify-content: center;
+      left: -200px;
+      top: -70px;
       text-align: center;
       align-items: center;
-      left: -230px;
-      top: -60px;
+      -webkit-box-shadow: 0 4px 6px -6px #222;
+      -moz-box-shadow: 0 4px 6px -6px #222;
+      box-shadow: 0 4px 6px -2px #222;
+    }
+    .navigation-hidden{
+      width: 30%;
     }
     .link {
-      color: #fff;
+      color: #fff !important;
     }
+  }
+
+  @media only screen and (max-width: 440px) {
+    .navigation-visible{
+      left: -220px;
+    }
+  }
+
+
+  @media only screen and (max-width: 414px) {
+    .navigation-visible{
+      left: -235px;
+    }
+    .card-body-right {
+      width: 330px;
+      height: 300px;
+      top: -25px;
+      left: 15px;
+  }
+  .card-body-left{
+      width: 330px;
+      height: 300px;
+      top: 5px;
+      left: 15px;
+  }
+
+  .hamburger {
+    left: 175px;
+  }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .navigation-visible{
+      width: 450px;
+    }
+    .card-body-right {
+      width: 320px;
+      height: 280px;
+      top: -25px;
+      left: 5px;
+  }
+  .card-body-left{
+      width: 320px;
+      height: 280px;
+      left: 1px;
+  }
+
+  .hamburger {
+    left: 155px;
+  }
+  }
+
+  @media only screen and (max-width: 360px) {
+    .navigation-visible{
+      width: 450px;
+    }
+    .card-body-right {
+      width: 320px;
+      height: 280px;
+      top: -25px;
+      left: -5px;
+  }
+  .card-body-left{
+      width: 320px;
+      height: 280px;
+      left: -6px;
+  }
+
+  .hamburger {
+    left: 155px;
+  }
   }

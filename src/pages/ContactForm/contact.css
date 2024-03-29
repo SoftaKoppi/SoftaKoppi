@@ -192,27 +192,72 @@
         font-size: 2.1rem;
         margin-left: 69px;
       }
+      .footer-container{
+        left: 5px;
+        top: 155px;
+        width: 50%;
+      }
   }
 
-  @media only screen and (max-width: 450px) {
+  @media only screen and (max-width: 460px) {
     .contact-form{
-      top: 285px;
+      top: 230px;
       left: 5;
     }
     .quick-contact{
-      top: 295px;
-      left: 0px;
+      top: 255px;
+      left: 35px;
     }
     .success-message {
       position: relative;
       font-family: 'Permanent Marker', cursive;
-      left: 50px;
-      bottom: -165px;
+      left: 100px;
+      bottom: -15px;
       font-size: 1.5rem;
+      width: 50%;
       }
       .contact-form:before {
         content: "Ota yhteyttä";
         font-size: 2.1rem;
         margin-left: 69px;
+        width: 0%;
       }
+    .footer-container {
+      position: relative;
+      left: -35px;
+      top: 120px;
+      width: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 440px) {
+    .contact-form{
+      top: 230px;
+      left: -5px;
+    }
+    .quick-contact{
+      top: 255px;
+      left: -5px;
+    }
+    .success-message {
+      left: 100px;
+      bottom: -125px;
+      font-size: 1.5rem;
+      width: 50%;
+      }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .quick-contact{
+      top: 255px;
+      left: 5px;
+    }
+
+  }
+  @media only screen and (max-width: 360px) {
+    .quick-contact{
+      top: 255px;
+      left: 5px;
+    }
+
   }

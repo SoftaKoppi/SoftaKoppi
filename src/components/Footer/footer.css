@@ -1,7 +1,19 @@
-@media only screen and (max-width: 450px){
+.footer {
+    position: relative;
+    bottom: -175px;
+}
+
+@media only screen and (max-width: 460px){
 .footer{
-    margin-top: 325px;
     width: 50%;
     background-color: transparent !important;
 }
 }
+
+@media only screen and (max-width: 375px){
+    .footer{
+        width: 00%;
+        height: 0;
+        background-color: transparent !important;
+    }
+    } 

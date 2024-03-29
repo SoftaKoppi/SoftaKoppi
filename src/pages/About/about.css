@@ -194,46 +194,193 @@ img[alt="softakoppi_firman_edustus_kuva"] {
     }
   }
 
-  @media only screen and (max-width: 450px) {
+  @media only screen and (max-width: 460px) {
     .aboutContainer {
         flex-direction: column !important;
     }
     .aboutContainer:before{
-        top: 1950px;
-        left: 90px;
-        font-size: 2.4rem;
+        top: 1850px;
+        left: 120px;
+        font-size: 2.5rem;
+        content: "Miksi SoftaKoppi?";
+        width: 50%;
     }
     .image-container{
-        left: -22px;
-        top: -120px;
+        left: -18px;
+        top: -162px;
     }
     .about-picture{
         width: 95% !important;
-        height: 438px;
+        height: 440px;
         border-radius: 25px;
         z-index: 1;
     }
     .about-card-body-bottom-left{
         width: 385px;
-        top: -25px;
+        top: -7px;
         left: 7px;
         transform:rotate(-2deg) ;
     }
     .about-card-body-right{
-        top: -195px;
+        top: -245px;
         left: 3px;
         width: 385px;
         background-color: #ffae00;
     }
     .about-card-body-bottom{
         background-color: rgb(231, 228, 7);
-        top: -240px;
+        top: -290px;
         left: 2px;
         width: 385px;
     }
     .about-card-body-bottom-right{
         left: 1px;
-        top: -260px;
+        top: -320px;
         width: 385px;
     }
-  }
+    img[alt="softakoppi_firman_edustus_kuva"] {
+        --w: 450px; /* Adjusted image width */
+        --l: 15px; /* Adjusted value for --l */
+        --s: 1px; /* Adjusted value for --s */
+    }
+}
+@media only screen and (max-width: 440px) {
+    .image-container{
+        left: -25px;
+    }
+    .aboutContainer:before{
+        top: 1850px;
+        left: 105px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .image-container{
+        left: -26px;
+    }
+    .aboutContainer:before{
+        top: 1850px;
+        left: 100px;
+    }
+
+    .about-card-body-bottom-left{
+        width: 380px;
+        top: -6px;
+        left: 0;
+        transform:rotate(-1deg) ;
+    }
+    .about-card-body-right{
+        top: -215px;
+        left: -10px;
+        width: 380px;
+        background-color: #ffae00;
+        transform: rotate(2deg);
+        z-index: -1;
+    }
+    .about-card-body-bottom{
+        background-color: rgb(231, 228, 7);
+        top: -290px;
+        left: -10px;
+        width: 380px;
+    }
+    .about-card-body-bottom-right{
+        left: -10px;
+        top: -320px;
+        width: 380px;
+        transform: rotate(3deg);
+    }
+        .about-picture{
+            width: 95% !important;
+            height: 440px;
+            width: 410px !important;
+            border-radius: 25px;
+            z-index: 1;
+        }
+}
+
+@media only screen and (max-width:375px) {
+    .image-container{
+        left: -30px;
+    }
+    .aboutContainer:before{
+        top: 1720px;
+        left: 80px;
+    }
+
+    .about-card-body-bottom-left{
+        width: 350px;
+        top: -6px;
+        left: 0;
+        transform:rotate(-1deg) ;
+    }
+    .about-card-body-right{
+        top: -215px;
+        left: -20px;
+        width: 360px;
+        background-color: #ffae00;
+        transform: rotate(1deg);
+        z-index: -1;
+    }
+    .about-card-body-bottom{
+        background-color: rgb(231, 228, 7);
+        top: -240px;
+        left: -20px;
+        width: 360px;
+    }
+    .about-card-body-bottom-right{
+        left: -20px;
+        top: -290px;
+        width: 360px;
+        transform: rotate(1deg);
+    }
+        .about-picture{
+            width: 95% !important;
+            height: 400px;
+            width: 380px !important;
+            border-radius: 55px;
+            z-index: 1;
+        }
+}
+
+@media only screen and (max-width:360px) {
+    .image-container{
+        left: -40px;
+    }
+    .aboutContainer:before{
+        left: 70px;
+    }
+
+    .about-card-body-bottom-left{
+        width: 350px;
+        top: -9px;
+        left: 4px;
+        transform:rotate(-0.8deg) ;
+    }
+    .about-card-body-right{
+        top: -215px;
+        left: -25px;
+        width: 350px;
+        background-color: #ffae00;
+        transform: rotate(1deg);
+        z-index: -1;
+    }
+    .about-card-body-bottom{
+        background-color: rgb(231, 228, 7);
+        top: -240px;
+        left: -25px;
+        width: 350px;
+    }
+    .about-card-body-bottom-right{
+        left: -25px;
+        top: -290px;
+        width: 350px;
+        transform: rotate(1deg);
+    }
+        .about-picture{
+            width: 95% !important;
+            height: 400px;
+            width: 380px !important;
+            border-radius: 55px;
+            z-index: 1;
+        }
+}

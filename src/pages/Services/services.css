@@ -120,21 +120,117 @@
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 460px) {
     .company-section:before{
         bottom: 1780px;
-        left: 110px;
+        left: 115px;
+        width: 0%;
+        font-size: 2.4rem;
     }
     .area-item {
         font-size: 1.4rem;
     }
     .company-card-body-center{
-        width: 375px;
+        width: 365px;
+        margin: 0;
+        left: 30px;
     }
     .company-card-body-left{
-        width: 375px;
+        width: 365px;
+        margin: 0;
+        left: 30px;
     }
     .company-card-body-right{
-        width: 375px;
+        width: 365px;
+        margin: 0;
+        left: 30px;
     }
+    
 }
+
+@media only screen and (max-width: 414px) {
+    .company-section:before{
+        bottom: 1780px;
+        left: 105px;
+        width: 0%;
+        font-size: 2.4rem;
+    }
+    .area-item {
+        font-size: 1.4rem;
+    }
+    .company-card-body-center{
+        width: 355px;
+        margin: 0;
+        left: 15px;
+    }
+    .company-card-body-left{
+        width: 355px;
+        margin: 0;
+        left: 15px;
+    }
+    .company-card-body-right{
+        width: 355px;
+        margin: 0;
+        left: 15px;
+    }
+    
+}
+
+@media only screen and (max-width: 375px) {
+    .company-section:before{
+        bottom: 1850px;
+        left: 105px;
+        width: 0%;
+        font-size: 2.4rem;
+    }
+    .area-item {
+        font-size: 1.4rem;
+    }
+    .company-card-body-center{
+        width: 335px;
+        height: 300px;
+        margin: 0;
+        left: 5px;
+        top: 65px;
+    }
+    .company-card-body-left{
+        width: 345px;
+        margin: 0;
+        height: 300px;
+        left: 5px;
+    }
+    .company-card-body-right{
+        width: 345px;
+        margin: 0;
+        height: 320px;
+        left: 1px;
+        top: 45px;
+    }
+    .area-item {
+        font-size: 1.3rem;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 360px) {
+    .company-section:before{
+        left: 100px;
+        font-size: 2.3rem;
+    }
+    .company-card-body-center{
+        left: 0px;
+    }
+    .company-card-body-left{
+        left: 0;
+    }
+    .company-card-body-right{
+        left: -5px;
+    }
+    .area-item {
+        font-size: 1.2rem;
+    }
+    
+}
+

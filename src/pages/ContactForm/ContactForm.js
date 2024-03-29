@@ -61,7 +61,6 @@ function ContactForm() { const form = useRef();
             </form>
      )}
      <div className=" quick-contact">
-                <div className="row">
                   <ul className="contact-list-ul">
                     <li className="contact-list-ul">
                     <i className="bi bi-telephone"> (+358) 45 6122540</i>
@@ -74,12 +73,11 @@ function ContactForm() { const form = useRef();
                     </li>
                     <a href="https://www.linkedin.com/in/eetu-huttula-3a2714244/" target="blank" alt="linkedin-Eetu-Huttula" className="link-ul"><i className="bi bi-linkedin"></i></a>
                     <a href="https://eetuhuttula.github.io/EetuHcv/" target="blank" alt="Web-resume" className="link-ul"><i className="bi bi-link-45deg"></i></a>
-                  </ul>
+                  </ul><div className="footer-container">
+                <Footer/>
                 </div>
               </div>
-              <div className="footer-container">
-                <Footer/>
-              </div>
+              
               
      </div>
      

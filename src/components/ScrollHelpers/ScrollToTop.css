@@ -22,6 +22,19 @@
   }
   
   .scroll-to-top.scrolling-down {
-    right: 60px;
+    right: 80px;
   }
-  
+
+  @media only screen and (max-width: 375px ){
+    .scroll-to-top.scrolling-down{
+      right: 135px;
+      bottom: 265px;
+    }
+  }
+
+  @media only screen and (max-width: 360px ){
+    .scroll-to-top.scrolling-down{
+      right: 165px;
+      bottom: 215px;
+    }
+  }
