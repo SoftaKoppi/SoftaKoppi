@@ -58,18 +58,18 @@
     justify-content: center;
 }
 
-.company-section:before {
+.service_title{
     box-sizing: border-box;
     display: block;
     position: absolute;
-    width: 50%;
-    height: 50%;
-    content: "Palvelut";
     font-family: 'Permanent Marker', cursive;
     font-size: 3.2em;
     color: rgba(26, 26, 26, 0.7);
     text-align: center;
-    padding-top: 100px;
+    padding-top: 10px;
+    top:565px;
+    left: 785px;
+    z-index: 111;
 }
 
 .service-list {
@@ -100,8 +100,8 @@
     .company-section {
         flex-direction: column !important;
     }
-    .company-section:before{
-        bottom: 1480px;
+    .service_title{
+        top:723px;
         left: 110px;
     }
     .company-card-body-left{
@@ -121,11 +121,11 @@
 }
 
 @media only screen and (max-width: 460px) {
-    .company-section:before{
-        bottom: 1780px;
+    .service_title{
+        top: 730px;
         left: 115px;
         width: 0%;
-        font-size: 2.4rem;
+        font-size: 2.7rem;
     }
     .area-item {
         font-size: 1.4rem;
@@ -148,8 +148,35 @@
     
 }
 
+@media only screen and (max-width: 430px) {
+    .service_title{
+        top: 740px;
+    }
+    .area-item {
+        font-size: 1.4rem;
+    }
+    .company-card-body-center{
+        width: 365px;
+        margin: 0;
+        left: 20px;
+        top:55px;
+    }
+    .company-card-body-left{
+        width: 365px;
+        margin: 0;
+        left: 20px;
+    }
+    .company-card-body-right{
+        width: 365px;
+        margin: 0;
+        left: 20px;
+        top: 15px;
+    }
+    
+}
+
 @media only screen and (max-width: 420px) {
-    .company-section:before{
+    .service_title{
         bottom: 1780px;
         left: 105px;
         width: 0%;
@@ -177,7 +204,7 @@
 }
 
 @media only screen and (max-width: 375px) {
-    .company-section:before{
+    .service_title{
         bottom: 1850px;
         left: 105px;
         width: 0%;
@@ -215,7 +242,7 @@
 
 
 @media only screen and (max-width: 360px) {
-    .company-section:before{
+    .service_title{
         left: 100px;
         font-size: 2.3rem;
     }

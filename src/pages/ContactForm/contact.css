@@ -178,7 +178,8 @@
     }
     .quick-contact{
       top: 285px;
-      left: 45px;
+      left: 5px;
+      width:85vw;
     }
     .success-message {
       position: relative;
@@ -201,12 +202,10 @@
 
   @media only screen and (max-width: 460px) {
     .contact-form{
-      top: 230px;
-      left: 5;
+      top: 200px;
     }
     .quick-contact{
-      top: 255px;
-      left: 35px;
+      left: 9px;
     }
     .success-message {
       position: relative;
@@ -250,14 +249,14 @@
   @media only screen and (max-width: 375px) {
     .quick-contact{
       top: 255px;
-      left: 5px;
+      left: -5px;
     }
 
   }
   @media only screen and (max-width: 360px) {
     .quick-contact{
       top: 255px;
-      left: 5px;
+      left: -5px;
     }
 
   }

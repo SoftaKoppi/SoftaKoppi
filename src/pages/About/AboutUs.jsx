@@ -8,6 +8,9 @@ export default function AboutUs() {
   return (
     <div className="container" id="about-container">
       <div className="aboutContainer d-flex flex-row ">
+      <div className="about_container_title">
+        <p>Miksi SoftaKoppi?</p>
+      </div>
         <div className="image-container">
           <img
             src={aboutkuva}

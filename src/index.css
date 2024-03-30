@@ -34,7 +34,6 @@ code {
   }
   .backgroundcontainer{
     position: relative;
-    height: 4900px;
     margin: 0;
     border: none;
     border-top:none;
@@ -43,5 +42,17 @@ code {
     border-right: none;
     box-shadow: none;
     background-color: transparent;
+    overflow-x: hidden !important;
+    height: 100vh;
   }
+  * {
+    outline: 1px solid red
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .body{
+    height: 100vh;
+  }
+
 }
