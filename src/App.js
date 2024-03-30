@@ -1,30 +1,38 @@
-import TopContent from './pages/TopContent/TopContent.jsx';
-import Services from './pages/Services/Services.jsx'
-import AboutUs from './pages/About/AboutUs.jsx';
-import "./index.css"
-import { Routes, Route, BrowserRouter} from 'react-router-dom';
+import React, { memo, Suspense } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ScrollToHashElement from "./components/ScrollHelpers/ScrollToHashElement.js";
 import ScrollTop from "./components/ScrollHelpers/ScrollToTop.js";
 
-function App() {
+const LazyTopContent = React.lazy(() => import('./pages/TopContent/TopContent.jsx'));
+const LazyServices = React.lazy(() => import('./pages/Services/Services.jsx'));
+const LazyAboutUs = React.lazy(() => import('./pages/About/AboutUs.jsx'));
 
+// Wrap the lazy-loaded components with React.memo()
+const MemoizedLazyTopContent = memo(LazyTopContent);
+const MemoizedLazyServices = memo(LazyServices);
+const MemoizedLazyAboutUs = memo(LazyAboutUs);
+
+function App() {
   return (
     <BrowserRouter>
       <div className="backgroundcontainer">
-      <ScrollToHashElement />
+        <ScrollToHashElement />
         <Routes>
-          {/* Catch-all route for rendering all pages initially */}
+          {/* Use Suspense with fallback for lazy-loaded components */}
           <Route path="/*" element={
-            <>
-              <TopContent />
-              <Services />
-              <AboutUs />
-            </>
+            <Suspense fallback={<div>Loading...</div>}>
+              <>
+                {/* Lazy-loaded components */}
+                <MemoizedLazyTopContent />
+                <MemoizedLazyServices />
+                <MemoizedLazyAboutUs />
+              </>
+            </Suspense>
           } />
+          
         </Routes>
-        <ScrollTop/>
+        <ScrollTop />
       </div>
-      
     </BrowserRouter>
   );
 }
