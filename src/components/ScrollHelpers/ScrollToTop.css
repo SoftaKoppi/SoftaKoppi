@@ -3,6 +3,7 @@
     bottom: 20px;
     right: 20px;
     transition: right 0.5s;
+    z-index: 999;
   }
   
   .scroll-to-top-button {
@@ -24,17 +25,24 @@
   .scroll-to-top.scrolling-down {
     right: 80px;
   }
+  @media only screen and (max-width: 420px ){
+    .scroll-to-top.scrolling-down{
+      right: 65px;
+      bottom: -3955px;
+      position: absolute;
+    }
+  }
 
   @media only screen and (max-width: 375px ){
     .scroll-to-top.scrolling-down{
-      right: 135px;
-      bottom: 265px;
+      right: 65px;
+      bottom: -3755px;
     }
   }
 
   @media only screen and (max-width: 360px ){
     .scroll-to-top.scrolling-down{
-      right: 165px;
-      bottom: 215px;
+      right: 65px;
+      bottom: -3775px;
     }
   }

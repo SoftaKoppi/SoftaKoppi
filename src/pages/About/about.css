@@ -260,7 +260,7 @@ img[alt="softakoppi_firman_edustus_kuva"] {
 
 @media only screen and (max-width: 420px) {
     .image-container{
-        left: -22px;
+        left: -34px;
     }
     .about_container_title{
         top: 1875px;
@@ -268,38 +268,41 @@ img[alt="softakoppi_firman_edustus_kuva"] {
     }
 
     .about-card-body-bottom-left{
-        width: 380px;
+        width: 370px;
         top: -6px;
-        left: 0;
+        left: -5px;
         transform:rotate(-1deg) ;
     }
     .about-card-body-right{
         top: -195px;
-        left: -15px;
-        width: 380px;
+        left: -25px;
+        width: 370px;
         background-color: #ffae00;
-        transform: rotate(-1deg);
+        transform: rotate(1deg);
         z-index: -1;
     }
     .about-card-body-bottom{
         background-color: rgb(231, 228, 7);
         top: -240px;
-        left: -10px;
+        left: -25px;
         width: 380px;
     }
     .about-card-body-bottom-right{
-        left: -10px;
+        left: -20px;
         top: -270px;
-        width: 380px;
-        transform: rotate(3deg);
+        width: 370px;
+        transform: rotate(2deg);
     }
-        .about-picture{
-            width: 95% !important;
-            height: 440px;
-            width: 410px !important;
-            border-radius: 5px;
-            z-index: 1;
-        }
+    .about-picture{
+        width: 100% !important;
+        height: 470px;
+        border-radius: 0;
+        z-index: 1;
+    }
+    img[alt="softakoppi_firman_edustus_kuva"] {
+        --l: -10px; /* Adjusted value for --l */
+        --s: 0px; /* Adjusted value for --s */
+    }
 }
 
 @media only screen and (max-width:375px) {

@@ -188,23 +188,23 @@
 
   @media only screen and (max-width: 420px) {
     .navigation-visible{
-      left: -235px;
+      left: -210px;
     }
     .card-body-right {
       width: 330px;
       height: 300px;
       top: -25px;
-      left: 15px;
+      left: -5px;
   }
   .card-body-left{
       width: 330px;
       height: 300px;
       top: 5px;
-      left: 15px;
+      left: -15px;
   }
 
   .hamburger {
-    left: 175px;
+    left: 155px;
   }
   }
 
