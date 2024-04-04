@@ -7,9 +7,9 @@ import {Link } from "react-router-dom"
 export default function AboutUs() {
   return (
     <div className="container" id="about-container">
-      <div className="aboutContainer d-flex flex-row ">
+      <div className="row aboutContainer d-flex flex-row ">
       <div className="about_container_title">
-        <p>Miksi SoftaKoppi?</p>
+        <h1 className="service_heading">Miksi SoftaKoppi?</h1>
       </div>
         <div className="image-container">
           <img
@@ -20,7 +20,7 @@ export default function AboutUs() {
           />
         <div className="about-card-body-bottom-left text-center justify-content-center">
           <div className="card-header" style={{ paddingTop: "50px"}}>
-            <p>Terve, Minä oon Eetu</p>
+            <p>Terve, Minä oon Eetu Huttula</p>
           </div>
           <div className="text-area">
             <div className="service-list">

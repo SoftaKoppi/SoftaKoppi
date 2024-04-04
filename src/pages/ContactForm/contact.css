@@ -168,6 +168,20 @@
     }
   }
 
+  @media only screen and (max-width: 1024px) {
+    .contact-form {
+      right: 55px;
+      top: -320px;
+    }
+    .quick-contact{
+      left: 110px;
+    }
+    .footer{
+      right: -50px;
+    }
+  }
+
+
   @media only screen and (max-width: 480px) {
     .contact-form-container{
       flex-direction: column !important;
@@ -195,7 +209,7 @@
       }
       .footer-container{
         left: 5px;
-        top: 155px;
+        top: -7px;
         width: 50%;
       }
   }
@@ -224,7 +238,7 @@
     .footer-container {
       position: relative;
       left: -35px;
-      top: 120px;
+      top: 50px;
       width: 50%;
     }
   }
@@ -246,17 +260,19 @@
       }
   }
 
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 380px) {
     .quick-contact{
       top: 255px;
       left: -5px;
     }
-
+  .contact-list-ul{
+        font-size: 1.1em;
+      }
   }
   @media only screen and (max-width: 360px) {
     .quick-contact{
       top: 255px;
       left: -5px;
     }
-
+    
   }

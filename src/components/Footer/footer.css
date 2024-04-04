@@ -1,8 +1,17 @@
 .footer {
     position: relative;
     bottom: -175px;
+    justify-content: center !important;
 }
 
+
+@media only screen and (min-width: 1900px){
+    .footer{
+        width: 50%;
+        bottom: -180px;
+        right: -135px;
+    }
+    }
 @media only screen and (max-width: 460px){
 .footer{
     width: 50%;

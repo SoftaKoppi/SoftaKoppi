@@ -6,7 +6,7 @@ export default function Services() {
     <div className="container" id="service-container">
     <div className="company-section d-flex flex-row">
       <div className="service_title">
-        <p>Palvelut</p>
+        <h1 className="service_heading">Palvelut</h1>
       </div>
       <div className="company-card-body-left text-center justify-content-center col-md-3">
         <div className="card-header">

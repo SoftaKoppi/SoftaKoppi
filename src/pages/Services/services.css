@@ -96,13 +96,38 @@
         padding: 10px;
     }
   }
+
+  @media only screen and (max-width: 1024px) {
+    .company-section {
+        margin-bottom: 555px !important;
+    }
+    .service_title{
+        top:550px;
+        left:350px;
+    }
+    .company-card-body-center {
+        left: -200px;
+    }
+    .company-card-body-left{
+        top: 555px;
+        left: 420px;
+    }
+    .company-card-body-right{
+      left: -240px;
+      top: 180px;
+    }
+  }
+
 @media only screen and (max-width: 480px) {
     .company-section {
         flex-direction: column !important;
     }
     .service_title{
-        top:723px;
-        left: 110px;
+        top:783px;
+        left: 135px;
+    }
+    .service_heading {
+        font-size: 2.5rem;
     }
     .company-card-body-left{
         top: 80px;
@@ -203,7 +228,7 @@
     
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 380px) {
     .service_title{
         bottom: 1850px;
         left: 105px;

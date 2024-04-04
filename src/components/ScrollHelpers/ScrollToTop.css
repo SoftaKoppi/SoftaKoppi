@@ -16,6 +16,7 @@
     cursor: pointer;
     line-height: 40px;
     font-size: 50px;
+    z-index: 999;
   }
   
   .scroll-to-top-button:hover {
@@ -25,6 +26,41 @@
   .scroll-to-top.scrolling-down {
     right: 80px;
   }
+
+  
+  @media only screen and (max-width: 1550px ){
+    .scroll-to-top.scrolling-down{
+      right: 255px;
+      bottom: 75px;
+    }
+  }
+    @media only screen and (max-width: 1280px ){
+      .scroll-to-top.scrolling-down{
+        right: 455px;
+        bottom: 75px;
+      }
+  }
+  @media only screen and (max-width: 1024px ){
+    .scroll-to-top.scrolling-down{
+      right: 255px;
+      bottom: 75px;
+    }
+}
+@media only screen and (max-width: 991px ){
+  .scroll-to-top.scrolling-down{
+    right: 255px;
+    bottom: 75px;
+  }
+}
+
+@media only screen and (max-width: 420px ){
+  .scroll-to-top.scrolling-down{
+    right: 365px;
+    bottom: 55px;
+    position: absolute;
+  }
+}
+
   @media only screen and (max-width: 420px ){
     .scroll-to-top.scrolling-down{
       right: 65px;

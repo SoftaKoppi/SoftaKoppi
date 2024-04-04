@@ -155,9 +155,71 @@ img[alt="softakoppi_firman_edustus_kuva"] {
         height: 100%;
     }
   }
+
+  @media only screen and (max-width: 1024px) {
+    #about-container {
+        margin-top: 655px;
+    }
+    .about_container_title {
+        top: 1525px;
+    }
+    .about-card-body-bottom-left {
+        top: 25px;
+        left: 5px;
+    }
+    .about-card-body-bottom-right{
+        top: -455px;
+        left: 455px;
+    }
+    .about-card-body-bottom{
+        top: -435px;
+        left: 455px;
+    }
+    .about-card-body-right {
+        top: 85px;
+        left: -1px;
+    }
+    .image-container {
+       left: -25px;
+    }
+
+  }
+
+  @media only screen and (max-width: 991px) {
+    .aboutContainer{
+        flex-direction: row;
+    }
+    .about_container_title {
+        top: 1525px;
+    }
+    .about-card-body-bottom-left {
+        top: 25px;
+        left: -5px;
+    }
+    .about-card-body-bottom-right{
+        top: -1455px;
+        left: 355px;
+    }
+    .about-card-body-bottom{
+        top: -685px;
+        left: 355px;
+    }
+    .about-card-body-right {
+        top: 85px;
+        left: -15px;
+    }
+    .image-container {
+        top: 95px;
+        left: -235px;
+    }
+    .about-picture{
+        width: 400px !important;
+    }
+  }
   @media only screen and (max-width: 480px) {
     .aboutContainer {
         flex-direction: column !important;
+        margin-top: -350px !important;
     }
     .about_container_title{
         top: 2040px;
@@ -169,7 +231,7 @@ img[alt="softakoppi_firman_edustus_kuva"] {
     }
     .about-picture{
         width: 100% !important;
-        border-radius: 5px;
+        border-radius: 10px;
     }
     .about-card-body-bottom-left{
         top: 5px;
@@ -210,7 +272,7 @@ img[alt="softakoppi_firman_edustus_kuva"] {
     .about-picture{
         width: 95% !important;
         height: 440px;
-        border-radius: 25px;
+        border-radius: 10px;
         z-index: 1;
     }
     .about-card-body-bottom-left{
@@ -244,11 +306,20 @@ img[alt="softakoppi_firman_edustus_kuva"] {
 }
 @media only screen and (max-width: 440px) {
     .image-container{
-        left: -30px;
+        left: -5px;
     }
     .about_container_title{
         top: 1850px;
         left: 105px;
+    }
+    .about-card-body-bottom{
+        left: -15px;
+    }
+    .about-card-body-bottom-left{
+        left: -25px;
+    }
+    .about-card-body-bottom-right{
+        left: -20px;
     }
 }
 @media only screen and (max-width: 425px) {
@@ -260,22 +331,24 @@ img[alt="softakoppi_firman_edustus_kuva"] {
 
 @media only screen and (max-width: 420px) {
     .image-container{
-        left: -34px;
+        left: -15px;
+        width: 100%;
+        margin-top: 75px;
     }
     .about_container_title{
-        top: 1875px;
-        left: 100px;
+        top: 1915px;
+        left: 80px;
     }
 
     .about-card-body-bottom-left{
         width: 370px;
         top: -6px;
-        left: -5px;
+        left: -20px;
         transform:rotate(-1deg) ;
     }
     .about-card-body-right{
         top: -195px;
-        left: -25px;
+        left: -15px;
         width: 370px;
         background-color: #ffae00;
         transform: rotate(1deg);
@@ -305,19 +378,19 @@ img[alt="softakoppi_firman_edustus_kuva"] {
     }
 }
 
-@media only screen and (max-width:375px) {
+@media only screen and (max-width:380px) {
     .image-container{
         left: -30px;
     }
     .about_container_title{
-        top: 1720px;
-        left: 80px;
+        top: 1750px;
+        left: 60px;
     }
 
     .about-card-body-bottom-left{
         width: 350px;
         top: -6px;
-        left: 0;
+        left: -4px;
         transform:rotate(-1deg) ;
     }
     .about-card-body-right{

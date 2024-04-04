@@ -1,21 +1,23 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "SoftaKoppi",
+  "name": "SoftaKoppi - Verkkosivut ja -sovellukset suoraan Helsingin sydämmestä!",
+  "description": "SoftaKoppi luo vaikuttavia verkkosivuja ja -sovelluksia yrityksille Helsingissä ja ympäri Suomen. Autamme yrityksiä saamaan näkyvyyttä verkossa ja parantamaan asiakaskokemusta.",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "favicon.ico",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x16",
       "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
     }
   ],
   "start_url": ".",

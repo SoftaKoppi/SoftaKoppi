@@ -97,46 +97,87 @@
     margin-bottom: 35px;
 }
 
-@media only screen and (max-width: 480px) {
-    .card-container {
-        flex-direction: column !important;
-    }
-    .card-body-right {
-        width: 350px;
-        height: 300px;
-        top: -35px;
-        left: 35px;
-    }
-    .card-body-left{
-        width: 350px;
-        height: 300px;
-        top: 5px;
-        left: 15px;
-    }
-    .hamburger {
-      position: relative;
-      left: 205px;
-      top: 15px !important;
-    }
-    .navigation-visible{
-      display: flex;
-      background-color: #3339;
-      color: black;
-      width: 485px;
-      height: 306px;
-      justify-content: center;
-      left: -220px;
-      top: -70px;
-      text-align: center;
-      align-items: center;
-      -webkit-box-shadow: 0 4px 6px -6px #222;
-      -moz-box-shadow: 0 4px 6px -6px #222;
-      box-shadow: 0 4px 6px -2px #222;
-    }
-    .link {
-      color: #fff;
-    }
+@media only screen and (max-width: 1024px) {
+  .hamburger {
+    position: relative;
+    left: 425px;
+    top: 25px !important;
+    margin-bottom: 45px;
   }
+  .navigation-visible{
+    display: flex;
+    color: black;
+    width: 485px;
+    height: 306px;
+    justify-content: center;
+    left: 160px;
+    top: -95px;
+    text-align: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .hamburger {
+    position: relative;
+    left: 325px;
+  }
+  .navigation-visible{
+    display: flex;
+    color: black;
+    width: 485px;
+    height: 306px;
+    justify-content: center;
+    left: 70px;
+    top: -95px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .card-container {
+    flex-direction: column !important;
+  }
+
+  .card-body-right,
+  .card-body-left {
+    width: 350px;
+    height: 300px;
+  }
+
+  .card-body-right {
+    top: -35px;
+    left: 35px;
+  }
+
+  .card-body-left {
+    top: 5px;
+    left: 15px;
+  }
+
+  .hamburger {
+    position: relative;
+    left: 205px;
+    top: 30px !important;
+  }
+
+  .navigation-visible {
+    display: flex;
+    background-color: #3339;
+    color: black;
+    width: 485px;
+    height: 306px;
+    justify-content: center;
+    left: -220px;
+    top: -85px;
+    text-align: center;
+    align-items: center;
+    z-index: 999;
+    box-shadow: 0 4px 6px -2px #222; /* Simplified box-shadow */
+  }
+
+  .navigation-visible .link {
+    color: #fff;
+  }
+}
 
   @media only screen and (max-width: 460px) {
     .card-body-right {
@@ -154,7 +195,7 @@
     .hamburger {
       position: relative;
       left: 185px;
-      top: 15px !important;
+      top: 35px !important;
     }
     .navigation-visible{
       display: flex;
@@ -164,7 +205,7 @@
       height: 306px;
       justify-content: center;
       left: -200px;
-      top: -70px;
+      top: -95px;
       text-align: center;
       align-items: center;
       -webkit-box-shadow: 0 4px 6px -6px #222;
@@ -208,7 +249,7 @@
   }
   }
 
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 380px) {
     .navigation-visible{
       width: 450px;
     }
